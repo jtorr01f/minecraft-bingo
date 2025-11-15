@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, FC } from "react";
-import { IconArrowBackUp, IconConfetti, IconExclamationCircle } from "@tabler/icons-react";
+import { IconArrowBackUp, IconExclamationCircle, IconPick } from "@tabler/icons-react";
 
 
 
@@ -70,7 +70,7 @@ const MinecraftBingo: FC = () => {
           </Tooltip>
         </div>
         <div className="bingo-button-wrapper">
-          <IconConfetti className="bingo-button" size={50} onClick={getBingo} />
+          <IconPick className="bingo-button" size={50} onClick={getBingo} />
           <IconArrowBackUp className="bingo-button" onClick={onItemUndo} size={50} />
         </div>
       </div>
