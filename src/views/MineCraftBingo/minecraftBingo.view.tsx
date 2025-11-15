@@ -40,7 +40,6 @@ const MinecraftBingo: FC = () => {
   };
 
   const getBingo = () => {
-    console.log(crypto.randomUUID())
     if (bingoPool.length === 0) {
       alert("Oopsie doopsie! No more items left in the pool! If someone hasnt won by now, they probably never will!");
       return;
